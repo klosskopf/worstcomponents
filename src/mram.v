@@ -1,6 +1,3 @@
-`ifndef MRAM_V
-`define MRAM_V
-
 `timescale 1ns/1ns
 
 module mram (
@@ -266,5 +263,3 @@ always @(*) begin
 end
 
 endmodule
-
-`endif //MRAM_V

@@ -1,5 +1,4 @@
 `timescale 1ns/1ns
-`include "wbInterconnect.v"
 
 module tst_wbInterconnect (
     input clk_i,

@@ -1,6 +1,3 @@
-`ifndef ROM_V
-`define ROM_V
-
 `timescale 1ns/1ns
 
 module rom (
@@ -13,7 +10,7 @@ module rom (
 );
 
 parameter ROMADDRBITS = 13;
-parameter FILE = "firmware/firmware.mem";
+parameter FILE = "tests/firmware.mem";
     
 reg [31:0] memory [(1<<ROMADDRBITS)-1:0];
 
@@ -35,5 +32,3 @@ initial begin
 end
 
 endmodule
-
-`endif //ROM_V

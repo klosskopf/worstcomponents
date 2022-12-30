@@ -1,6 +1,3 @@
-`ifndef RAM_V
-`define RAM_V
-
 `timescale 1ns/1ns
 
 module ram (
@@ -58,5 +55,3 @@ always @(posedge(clk_i)) begin
 end
 
 endmodule
-
-`endif //RAM_V

@@ -1,6 +1,3 @@
-`ifndef PARALLELPORT_V
-`define PARALLELPORT_V
-
 `timescale 1ns/1ns
 
 module parallelport (
@@ -42,5 +39,3 @@ always @(posedge(clk_i), posedge(rst_i)) begin
 end
 
 endmodule
-
-`endif //PARALLELPORT_V

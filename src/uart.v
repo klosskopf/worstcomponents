@@ -1,8 +1,4 @@
-`ifndef UART_V
-`define UART_V
-
 `timescale 1ns/1ns
-`include "fifo.v"
 
 module uart (
     input clk_i,
@@ -268,5 +264,3 @@ always @(*) begin
 end
 
 endmodule
-
-`endif //UART_V

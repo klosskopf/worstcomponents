@@ -1,6 +1,3 @@
-`ifndef TEMPLATE_V
-`define TEMPLATE_V
-
 `timescale 1ns/1ns
 
 module template (
@@ -84,5 +81,3 @@ end
 assign registerOutputs[2] = reg3;
 
 endmodule
-
-`endif //TEMPLATE_V

@@ -1,8 +1,4 @@
-`ifndef SPI_V
-`define SPI_V
-
 `timescale 1ns/1ns
-`include "fifo.v"
 
 module spi (
     input clk_i,
@@ -225,5 +221,3 @@ always @(*) begin                           //because workdir is changed at the 
 end
 
 endmodule
-
-`endif //SPI_V

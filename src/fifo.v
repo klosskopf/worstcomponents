@@ -1,6 +1,3 @@
-`ifndef FIFO_V
-`define FIFO_V
-
 `timescale 1ns/1ns
 
 module fifo #(
@@ -94,5 +91,3 @@ always @(posedge(clk_i)) begin
 end
     
 endmodule
-
-`endif //FIFO_V
